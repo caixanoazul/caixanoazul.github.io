@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://caixanoazul.github.io/sitemap.xml
