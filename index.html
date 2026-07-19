@@ -2,6 +2,20 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-N8LJV3PQ");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="google-site-verification"
@@ -27,6 +41,59 @@
       content="A planilha que transforma os números da sua empresa em decisões estratégicas. DRE, fluxo de caixa, indicadores, simulador e projeção de caixa."
     />
     <meta property="og:type" content="website" />
+    <!-- ===== SEO ACRESCENTADO (canonical + Open Graph + Schema) ===== -->
+    <link rel="canonical" href="https://caixanoazul.github.io/" />
+    <meta property="og:url" content="https://caixanoazul.github.io/" />
+    <meta property="og:site_name" content="Caixa no Azul" />
+    <meta property="og:image" content="https://caixanoazul.github.io/mockup-principal.webp" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Caixa no Azul | Controle Financeiro Empresarial em Excel" />
+    <meta name="twitter:description" content="A planilha que transforma os números da sua empresa em decisões estratégicas." />
+    <meta name="twitter:image" content="https://caixanoazul.github.io/mockup-principal.webp" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Caixa no Azul",
+      "url": "https://caixanoazul.github.io/",
+      "logo": "https://caixanoazul.github.io/icon.webp",
+      "description": "Planilha de controle financeiro empresarial em Excel.",
+      "founder": { "@type": "Person", "name": "Letícia Cristine" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Caixa no Azul - Planilha de Controle Financeiro Empresarial",
+      "image": "https://caixanoazul.github.io/mockup-principal.webp",
+      "description": "Planilha completa em Excel: DRE, fluxo de caixa, indicadores, simulador de cenários, projeção de caixa e manual passo a passo.",
+      "brand": { "@type": "Brand", "name": "Caixa no Azul" },
+      "offers": {
+        "@type": "Offer",
+        "price": "797.00",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock",
+        "url": "https://pay.hotmart.com/D98297292W?off=zx1l2w62&hotfeature=51"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Preciso entender de finanças para usar?", "acceptedAnswer": { "@type": "Answer", "text": "Não. A planilha vem com um manual completo que explica cada conceito e cada campo em linguagem simples. Foi feita justamente para quem nunca teve controle financeiro." } },
+        { "@type": "Question", "name": "Funciona em qual programa?", "acceptedAnswer": { "@type": "Answer", "text": "No Microsoft Excel (Windows e Mac). Também abre no Excel online e em programas compatíveis, com pequenas diferenças de visual." } },
+        { "@type": "Question", "name": "É mensalidade ou pagamento único?", "acceptedAnswer": { "@type": "Answer", "text": "Pagamento único. Você compra uma vez e a planilha é sua para sempre, sem assinatura." } },
+        { "@type": "Question", "name": "Serve para o meu tipo de negócio?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Ela é genérica e adaptável: serve para comércio, serviços, MEI, pequenas empresas e autônomos de qualquer segmento." } },
+        { "@type": "Question", "name": "Como recebo depois de comprar?", "acceptedAnswer": { "@type": "Answer", "text": "O acesso é imediato. Assim que o pagamento é confirmado pela Hotmart, você recebe o arquivo para baixar." } },
+        { "@type": "Question", "name": "E se eu não gostar?", "acceptedAnswer": { "@type": "Answer", "text": "Você tem a garantia de 7 dias da Hotmart. Se não for para você, é só solicitar o reembolso dentro do prazo." } }
+      ]
+    }
+    </script>
+    <!-- ===== FIM SEO ACRESCENTADO ===== -->
     <link rel="icon" type="image/webp" href="favicon.webp" />
     <style>
       :root {
@@ -729,6 +796,16 @@
     </style>
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-N8LJV3PQ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
       <div class="wrap">
         <nav>
@@ -745,6 +822,8 @@
             <a href="#telas">Telas</a>
             <a href="#sobre">Sobre</a>
             <a href="blog/index.html">Conteúdos</a>
+            <a href="ferramentas.html">Ferramentas</a>
+            <a href="quem-somos.html">Institucional</a>
             <a href="#faq">Dúvidas</a>
             <a class="nav-cta" href="#preco">Quero a planilha</a>
           </div>
@@ -1110,6 +1189,45 @@
       </div>
     </section>
 
+    <!-- DEPOIMENTOS -->
+    <style>
+      .depo-sec{padding:88px 0;background:#faf8fe}
+      .depo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;max-width:1140px;margin-left:auto;margin-right:auto;padding:0 24px}
+      .depo{background:#fff;border:1px solid #ebe3f8;border-radius:18px;padding:30px;box-shadow:0 10px 30px rgba(58,28,99,.07);display:flex;flex-direction:column}
+      .depo .stars{color:#F5B301;font-size:1.05rem;margin-bottom:12px;letter-spacing:2px}
+      .depo p{color:#3a3550;font-size:1.02rem;line-height:1.65;margin-bottom:20px;flex:1}
+      .depo .who{display:flex;align-items:center;gap:12px}
+      .depo .av{width:48px;height:48px;border-radius:50%;object-fit:cover;flex-shrink:0;border:2px solid #efe8fb}
+      .depo .who b{display:block;font-size:.98rem;color:#1E1633}
+      .depo .who span{font-size:.85rem;color:#6B6580}
+      @media(max-width:860px){.depo-grid{grid-template-columns:1fr}}
+    </style>
+    <section class="depo-sec" id="depoimentos">
+      <div class="wrap">
+        <div class="head">
+          <span class="eyebrow">Quem usou</span>
+          <h2>O que estão dizendo</h2>
+        </div>
+      </div>
+      <div class="depo-grid">
+        <div class="depo">
+          <div class="stars">★★★★★</div>
+          <p>"Finalmente parei de anotar tudo no caderno. Consegui organizar as entradas e saídas e agora sei certinho quanto sobra no fim do mês. Bem fácil de usar."</p>
+          <div class="who"><img class="av" src="lucas.webp" alt="Lucas Pessoni" loading="lazy"><div><b>Lucas Pessoni</b><span>Empreendedor</span></div></div>
+        </div>
+        <div class="depo">
+          <div class="stars">★★★★★</div>
+          <p>"O que mais gostei foi o manual explicando cada parte. Não entendo muito de finanças e mesmo assim consegui montar meu fluxo de caixa sem dificuldade."</p>
+          <div class="who"><img class="av" src="raphael.webp" alt="Raphael" loading="lazy"><div><b>Raphael</b><span>Dono de comércio</span></div></div>
+        </div>
+        <div class="depo">
+          <div class="stars">★★★★★</div>
+          <p>"Planilha bem completa e organizada. Os indicadores prontos ajudam a ter uma visão real do negócio. Recomendo para quem quer se organizar."</p>
+          <div class="who"><img class="av" src="caio.webp" alt="Caio" loading="lazy"><div><b>Caio</b><span>Prestador de serviço</span></div></div>
+        </div>
+      </div>
+    </section>
+
     <section id="preco" class="preco">
       <div class="wrap">
         <div class="head">
@@ -1231,6 +1349,13 @@
           Caixa no Azul
         </div>
         <p>Controle financeiro empresarial que cabe no seu dia a dia.</p>
+        <p style="margin-top: 14px; display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: center">
+          <a href="quem-somos.html" style="color: #c79bff">Quem Somos</a>
+          <a href="contato.html" style="color: #c79bff">Contato</a>
+          <a href="politica-de-privacidade.html" style="color: #c79bff">Política de Privacidade</a>
+          <a href="termos-de-uso.html" style="color: #c79bff">Termos de Uso</a>
+          <a href="cookies.html" style="color: #c79bff">Cookies</a>
+        </p>
         <p style="margin-top: 10px">
           © 2026 Caixa no Azul. Todos os direitos reservados.
         </p>
