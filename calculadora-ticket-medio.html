@@ -1,13 +1,13 @@
 <!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8">
 <!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src="https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);})(window,document,"script","dataLayer","GTM-N8LJV3PQ");</script><!-- End Google Tag Manager -->
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ferramentas Financeiras Gratuitas | Caixa no Azul</title>
-<meta name="description" content="Calculadoras financeiras gratuitas: ponto de equilíbrio, margem de contribuição, EBITDA, capital de giro e precificação. Use online e sem cadastro.">
-<link rel="canonical" href="https://caixanoazul.github.io/ferramentas.html">
-<meta property="og:type" content="website"><meta property="og:title" content="Ferramentas Financeiras Gratuitas | Caixa no Azul">
-<meta property="og:description" content="Calculadoras financeiras gratuitas: ponto de equilíbrio, margem de contribuição, EBITDA, capital de giro e precificação. Use online e sem cadastro."><meta property="og:image" content="https://caixanoazul.github.io/mockup-principal.webp">
-<meta property="og:url" content="https://caixanoazul.github.io/ferramentas.html"><meta name="twitter:card" content="summary_large_image">
-
+<title>Calculadora de Ticket Médio | Caixa no Azul</title>
+<meta name="description" content="Calculadora gratuita de ticket médio: descubra o valor médio de cada venda e quanto seu faturamento cresce se você aumentar o ticket.">
+<link rel="canonical" href="https://caixanoazul.github.io/calculadora-ticket-medio">
+<meta property="og:type" content="website"><meta property="og:title" content="Calculadora de Ticket Médio | Caixa no Azul">
+<meta property="og:description" content="Calculadora gratuita de ticket médio: descubra o valor médio de cada venda e quanto seu faturamento cresce se você aumentar o ticket."><meta property="og:image" content="https://caixanoazul.github.io/mockup-principal.webp">
+<meta property="og:url" content="https://caixanoazul.github.io/calculadora-ticket-medio"><meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Calculadora de Ticket Médio", "url": "https://caixanoazul.github.io/calculadora-ticket-medio", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "BRL"}}</script>
 <link rel="icon" type="image/webp" href="favicon.webp"><style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI',system-ui,Arial,sans-serif;color:#1E1633;line-height:1.7;background:#faf8fe}
 a{color:#7B2FF7;text-decoration:none}a:hover{text-decoration:underline}
@@ -52,9 +52,28 @@ footer a{color:#C79BFF}
 </style></head><body>
 <header><div class="nav"><a href="index.html" class="logo"><img src="icon.webp" alt="Caixa no Azul"> Caixa no Azul</a>
 <a class="cta" href="index.html#preco">Quero a planilha</a></div></header>
-<div class="hero-c"><div class="in"><div class="bc"><a href="index.html">Início</a> › Ferramentas</div>
-<h1>Ferramentas Financeiras Gratuitas</h1><p>Calculadoras online e sem cadastro para você tomar decisões melhores no seu negócio.</p></div></div>
-<div class="wrap" style="max-width:1080px"><div class="tools"><a class="tool" href="calculadora-ponto-de-equilibrio"><div class="ic">⚖️</div><h2>Ponto de Equilíbrio</h2><p>Descubra quanto precisa vender para não ter prejuízo.</p></a><a class="tool" href="calculadora-margem-de-contribuicao"><div class="ic">📊</div><h2>Margem de Contribuição</h2><p>Veja quanto sobra de cada venda para pagar as despesas.</p></a><a class="tool" href="calculadora-ebitda"><div class="ic">📈</div><h2>EBITDA</h2><p>Meça a geração de caixa da operação da sua empresa.</p></a><a class="tool" href="calculadora-capital-de-giro"><div class="ic">💧</div><h2>Capital de Giro</h2><p>Saiba quanto de caixa a operação precisa para girar.</p></a><a class="tool" href="calculadora-de-precificacao"><div class="ic">🏷️</div><h2>Precificação</h2><p>Descubra o preço de venda ideal do seu produto ou serviço.</p></a><a class="tool" href="calculadora-ticket-medio"><div class="ic">🧾</div><h2>Ticket Médio</h2><p>Descubra o valor médio de cada venda do seu negócio.</p></a></div>
-<div class="cta-box" style="margin-top:44px"><h3>Cansado de calcular tudo à mão?</h3><p>A planilha Caixa no Azul reúne todos esses cálculos e muito mais, de forma automática.</p>
+<div class="hero-c"><div class="in"><div class="bc"><a href="index.html">Início</a> › <a href="ferramentas.html">Ferramentas</a> › Calculadora de Ticket Médio</div>
+<h1>Calculadora de Ticket Médio</h1><p>Descubra o valor médio de cada venda e simule o impacto de aumentar o seu ticket.</p></div></div>
+<div class="wrap">
+<div class="calc">
+<div class="field"><label for="fat">Faturamento total do período (R$)</label><input id="fat" type="text" inputmode="decimal" value="50000" oninput="calc()"></div><div class="field"><label for="vendas">Número de vendas / pedidos</label><input id="vendas" type="text" inputmode="decimal" value="200" oninput="calc()"></div><div class="field"><label for="aumento">Aumento desejado no ticket (%)</label><input id="aumento" type="text" inputmode="decimal" value="10" oninput="calc()"></div>
+<div class="res"><div class="row main"><span class="lb">Ticket médio atual</span><span class="vl" id="r1">-</span></div><div class="row "><span class="lb">Ticket médio com o aumento</span><span class="vl" id="r2">-</span></div><div class="row "><span class="lb">Faturamento estimado</span><span class="vl" id="r3">-</span></div><div class="row "><span class="lb">Ganho no faturamento</span><span class="vl" id="r4">-</span></div><div class="nota" id="nota"></div></div>
+</div>
+<div class="explica"><h2>O que é ticket médio</h2>
+<p>O ticket médio é o valor médio que cada cliente gasta por compra. Ele é calculado dividindo o faturamento total pelo número de vendas do período.</p>
+<h2>Por que ele importa</h2>
+<p>Aumentar o ticket médio é uma das formas mais rápidas de crescer o faturamento sem precisar de mais clientes. Combos, produtos complementares e upgrades elevam esse número. Use a calculadora para ver o impacto de um pequeno aumento no seu resultado.</p></div>
+<div class="cta-box"><h3>Quer isso tudo calculado automaticamente?</h3><p>A planilha Caixa no Azul faz esse e dezenas de outros cálculos sozinha, a partir dos seus lançamentos.</p>
 <a class="btn" href="https://pay.hotmart.com/D98297292W?off=zx1l2w62&hotfeature=51" target="_blank" rel="noopener">Conhecer a planilha</a></div>
+<div class="outros"><h3>Outras calculadoras</h3><a href="calculadora-ponto-de-equilibrio">Ponto de Equilíbrio</a><a href="calculadora-margem-de-contribuicao">Margem de Contribuição</a><a href="calculadora-ebitda">EBITDA</a><a href="calculadora-capital-de-giro">Capital de Giro</a><a href="calculadora-de-precificacao">Precificação</a></div>
 </div><footer><p>© 2026 Caixa no Azul · <a href="index.html">Início</a> · <a href="ferramentas.html">Ferramentas</a> · <a href="blog/index.html">Conteúdos</a></p></footer></body></html>
+<script>
+function g(id){return parseFloat((document.getElementById(id).value||'0').toString().replace(/\./g,'').replace(',','.'))||0;}
+function fmt(v){if(!isFinite(v))v=0;return v.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});}
+function fmtp(v){if(!isFinite(v))v=0;return v.toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1})+'%';}
+function set(id,v){document.getElementById(id).textContent=v;}
+function calc(){ var fat=g('fat'),ve=g('vendas'),au=g('aumento');var tm=ve>0?fat/ve:0;var ntm=tm*(1+au/100);var nfat=ntm*ve;var ganho=nfat-fat;
+   set('r1','R$ '+fmt(tm));set('r2','R$ '+fmt(ntm));set('r3','R$ '+fmt(nfat));set('r4','R$ '+fmt(ganho));
+   document.getElementById('nota').innerHTML='Aumentar o ticket em '+au.toLocaleString('pt-BR')+'% pode gerar R$ '+fmt(ganho)+' a mais de faturamento com o mesmo número de vendas.'; }
+calc();
+</script></body></html>
